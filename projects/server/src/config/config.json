@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "root",
+    "password":"jcwd2302",
+    "database": "warehouse",
+    "host": "localhost",
+    "dialect": "mysql",
+    "dialectOptions":{
+			"useUTC": false
+		},
+    "timezone": "+07:00"
+},
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+
+    "username": "jcwd230201",
+    "password": "group01",
+    "database": "jcwd230201",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
